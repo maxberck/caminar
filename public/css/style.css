@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+}
+@font-face {
+    font-family: 'Galano Grotesque Black';
+    src: url('../font/GalanoGrotesqueBlack.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Galano Grotesque Light';
+    src: url('../font/GalanoGrotesqueLight.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+html{
+    background-color: #1E1F23;
+    filter: blur(1);
+}
+body{
+    background-image:url(../img/bg.jpg) ;
+    background-size: 100%;
+    background-position-y: 55%;
+    background: no repeat;
+    height: 25em;
+    filter: blur(1);
+}
+header{
+    color: white;
+    text-align: center;
+}
+header h1{
+    font-weight: 900;
+    font-size: 3em;
+    padding-top: 1em;
+    font-family: 'Galano Grotesque Light'
+}
+header p{
+    font-weight: lighter;
+    font-size: .7em;
+    font-family: 'Galano Grotesque Light'
+}
