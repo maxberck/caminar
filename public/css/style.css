@@ -50,12 +50,12 @@ header p{
 }
 
 main{
-    width: 90%;
+    width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-    margin-left: 5%;
+    margin-left: 10%;
 }
 
 .section1{
@@ -122,4 +122,56 @@ main{
     align-items: center;
     height: 50em;
     background-color: #1E1F23;
+}
+
+.s2_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+    width: 85%;
+    background-color: #121315;
+}
+
+.s2_container h2{
+    font-family: 'Galano Grotesque Medium';
+    color: #FFFFFF;
+    font-weight: 900;
+    text-align: center;
+    padding-bottom: .5em;
+    padding-top: 1em;
+}
+
+.margin_s2{
+    display: block;
+    height: 1px;
+    min-height: 1px;
+    width: 6em;
+    background-color: #49494b;
+}
+
+.s2_container p{
+    font-family: 'Galano Grotesque Light';
+    text-align: center;
+    color: #49494b;
+    letter-spacing: .1em;
+    font-size: small;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.s2_img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 40em;
+}
+
+.s2_img img{
+    flex: 1 1 50%;
+    max-width: 50%;
+    height: auto;
+    object-fit: cover; 
 }
