@@ -166,12 +166,88 @@ main{
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
-    height: 40em;
+    height: 80%;
 }
 
 .s2_img img{
     flex: 1 1 50%;
     max-width: 50%;
-    height: auto;
     object-fit: cover; 
+    height: 17em;
 }
+
+.section3,
+.section4,
+.section5{
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+}
+.img_cont,
+.img_cont2,
+.img_cont3{
+    flex: 1;
+}
+.img_cont img,
+.img_cont2 img,
+.img_cont3 img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+ .s3_txt,
+ .s5_txt{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    text-align: left;
+ }
+ .s3_txt h2,
+ .s5_txt h2 {
+    font-family: 'Galano Grotesque Medium';
+    color: #1E1F23;
+    font-weight: 900;
+    margin-bottom: 1em;
+    padding-left: 2.4em;
+}
+.s3_txt p,
+.s5_txt p {
+    font-family: 'Galano Grotesque Light';
+    color: #49494b;
+    font-size: 1em;
+    line-height: 1.5em;
+    padding: 0 10%;
+}
+
+/* section 4 */
+
+
+ .s4_txt{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #1E1F23;
+    text-align: right;
+    color: #FFFFFF;
+ }
+ .s4_txt h2 {
+    font-family: 'Galano Grotesque Medium';
+    font-weight: 900;
+    margin-bottom: 1em;
+    padding-right: 2.4em;
+    color: white;
+}
+.s4_txt p {
+    font-family: 'Galano Grotesque Light';
+    color: #49494b;
+    font-size: 1em;
+    line-height: 1.5em;
+    padding: 0 10%;
+}
+
+
